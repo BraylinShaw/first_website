@@ -1,0 +1,135 @@
+:root {
+   --clr-primary: #000000;
+   --clr-secondary: #000000;
+   --clr-third: #6b0101;
+   --clr-fourth: #000000;
+   --clr-fifth : :var(--clr-fith);
+   --txttXt-clrp: #ffffff;
+   ---clrs: #ffffff;
+--ff-primary: 'Urbanists', sans-serif;
+--ff-secondary: 'Raleway', sans-serif;
+}
+
+h1{
+    font-family: var(--ff-primary);
+    font-weight: 200;
+    font-size: 100pt;
+}
+
+body{
+    margin-top: 10px;
+    background-color: var(--txt-clrs);
+    padding: 0;
+   margin: 0;
+}
+
+.beginning{
+    align-self: center;
+    text-align: center;
+ }
+
+ #nametitle{
+    margin: 5px;
+ }
+
+ #nameDescription{
+    font-family: var(--ff-primary);
+    font-size: 20pt;
+    font-weight:200;
+    color: var(--clr-primary);
+    margin-bottom: 50px;
+
+}
+
+.photoText{
+display: flex;
+margin-left: 75px;
+margin-right: 75px;
+margin-bottom: 75px;
+}
+
+#self{
+    display: block;
+    width:50%;
+    float:left;
+}
+
+#selfText{
+    display: block;
+    width:50%;
+    float: right;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 25pt;
+    font-family: var(--ff-secondary);
+    font-weight: 300;
+    padding: left 75px right 75px;
+}
+
+.myself{
+    display: flex;
+    background-color: var(--clr-primary)
+}
+
+.myselfBox {
+    width: 700px;
+    padding: 10px;
+    text-align: center;
+}
+
+.myselfBox img{
+    height: 300px;
+    object-fit: cover;
+}
+
+.myselfBox h3{
+    font-family: var(--ff-primary);
+    font-weight: 500;
+    font-size: 20pt;
+    color: var(--clr-third)
+}
+
+.myselfBox p{
+    font-family: var(--ff-secondary);
+    font-weight: 400;
+    color: var(---clrs)
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--clr-fourth);
+    text-align: center;
+}
+
+.quote h3{
+    font-family: var(--ff-primary);
+    color:var(---clrs);
+    font-size: 50pt;
+    padding-bottom: 15pt;
+}
+
+.quote h5{
+    font-family: var(--ff-primary);
+    color:var(--clr-third);
+    font-size: 25pt;
+}
+
+footer {
+    background-color: var(--clr-third);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    color: var(---clrs)
+}
+
+.footer-content a{
+    color: var(---clrs);
+    text-decoration: none;
+}
+
+.footer-content a:hover {
+    text-decoration: underline;
+}
